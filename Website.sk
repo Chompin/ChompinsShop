@@ -1,0 +1,7 @@
+options:
+	website: www.github.com/Chompin # Set this to your website.
+	prefix: &a&lWebsite > # Put what you want before your website here.
+	
+command /website:
+	trigger:
+		send "{@prefix} {@website}" to player
